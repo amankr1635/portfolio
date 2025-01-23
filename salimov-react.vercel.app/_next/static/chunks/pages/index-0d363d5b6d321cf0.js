@@ -692,9 +692,108 @@
                   },
                   children: (0, i.jsxs)("form", {
                     id: "emailForm",
-                    onSubmit: (e) => {
+                    onSubmit: async (e) => {
                       e.preventDefault();
+                    
+                      const emailInput = document.getElementById('email');
+                      const mobileInput = document.getElementById('Mobile');
+                      const messageInput = document.getElementById('message');
+                      const submitButton = e.target.querySelector('button[type="submit"]');
+                    
+                      // Create loader element
+                      const createLoader = () => {
+                        const loader = document.createElement('div');
+                        loader.style.border = '4px solid #f3f3f3'; // Light grey
+                        loader.style.borderTop = '4px solid #ffb400'; // Orange
+                        loader.style.borderRadius = '50%';
+                        loader.style.width = '30px';
+                        loader.style.height = '30px';
+                        loader.style.animation = 'spin 1s linear infinite';
+                        loader.style.marginLeft = '20px';
+                        return loader;
+                      };
+                       //   // Add CSS for loader animation
+                      const addLoaderStyles = () => {
+                        const style = document.createElement('style');
+                        style.innerHTML = `
+                          @keyframes spin {
+                            0% { transform: rotate(0deg); }
+                            100% { transform: rotate(360deg); }
+                          }
+                          .button-container {
+                            display: inline-flex;
+                            align-items: center;
+                          }
+                        `;
+                        document.head.appendChild(style);
+                      };
+                      // Create tick element
+                      const createTickElement = () => {
+                        const tick = document.createElement('span');
+                        tick.innerHTML = '✓';
+                        tick.style.color = 'green';
+                        tick.style.marginLeft = '20px';
+                        tick.style.fontSize = '30px';
+                        tick.style.fontWeight = 'bold';
+                        return tick;
+                      };
+                      addLoaderStyles(); // Add loader styles once
+                    
+                      try {
+                        // Disable and hide the submit button
+                        submitButton.disabled = true;
+                        submitButton.style.display = 'none';
+                    
+                        // Show loader
+                        const loader = createLoader();
+                        submitButton.parentNode.insertBefore(loader, submitButton.nextSibling);
+                    
+                        // Make the API call
+                        const response = await fetch('https://inquiry-1q60.onrender.com/api/send-inquiry', {
+                          method: 'POST',
+                          headers: {
+                            'Content-Type': 'application/json',
+                          },
+                          body: JSON.stringify({
+                            email: emailInput.value,
+                            mobile: mobileInput.value,
+                            message: messageInput.value,
+                            source: 'Website Inquiry Form'
+                          })
+                        });
+                    
+                        // Remove loader
+                        loader.remove();
+                    
+                        if (response.ok) {
+                          // Show success tick
+                          const tick = createTickElement();
+                          submitButton.parentNode.insertBefore(tick, submitButton.nextSibling);
+                    
+                          // Clear input fields
+                          emailInput.value = '';
+                          mobileInput.value = '';
+                          messageInput.value = '';
+                    
+                          // Remove tick and re-enable button after 3 seconds
+                          setTimeout(() => {
+                            tick.remove();
+                            submitButton.disabled = false;
+                            submitButton.style.display = 'inline-block'; // Show the button again
+                          }, 3000);
+                        } else {
+                          const errorData = await response.json();
+                          console.error('Submission failed:', errorData.message);
+                          submitButton.disabled = false;
+                          submitButton.style.display = 'inline-block'; // Show the button again
+                        }
+                      } catch (error) {
+                        console.error('Submission error:', error);
+                        submitButton.disabled = false;
+                        submitButton.style.display = 'inline-block'; // Show the button again
+                      }
                     },
+                    
                     children: [
                       (0, i.jsxs)("div", {
                         className: "form-group mb-4",
@@ -739,8 +838,8 @@
                           }),
                           (0, i.jsx)("input", {
                             type: "tel",
-                            id: "phone",
-                            name: "phone",
+                            id: "Mobile",
+                            name: "Mobile",
                             className: "form-control",
                             style: {
                               background: "#ffffff",
@@ -887,13 +986,30 @@
                           (0, i.jsx)("div", {
                             children: (0, i.jsx)("img", {
                               src: "assets/logos/Acmelogo.png",
-                              alt: "client",
+                              alt: "company",
                             }),
                           }),
                           (0, i.jsx)("div", {
                             children: (0, i.jsx)("img", {
                               src: "assets/logos/EY_logo.png",
-                              alt: "client",
+                              alt: "company",
+                            }),
+                          }),
+                        ],
+                      }),
+                      (0, i.jsxs)(m.o5, {
+                        className: "swiper-slide",
+                        children: [
+                          (0, i.jsx)("div", {
+                            children: (0, i.jsx)("img", {
+                              src: "assets/logos/ltslogo.png",
+                              alt: "company",
+                            }),
+                          }),
+                          (0, i.jsx)("div", {
+                            children: (0, i.jsx)("img", {
+                              src: "assets/logos/functionup.png",
+                              alt: "company",
                             }),
                           }),
                         ],
@@ -903,24 +1019,7 @@
                       //   children: [
                       //     (0, i.jsx)("div", {
                       //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/graphicriver-dark-background.png",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/codecanyon-dark-background.png",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //   ],
-                      // }),
-                      // (0, i.jsxs)(m.o5, {
-                      //   className: "swiper-slide",
-                      //   children: [
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/audiojungle-dark-background.png",
+                      //         src: "assets/logos/xyz",
                       //         alt: "client",
                       //       }),
                       //     }),
@@ -983,6 +1082,7 @@
                       //     }),
                       //   ],
                       // }),
+                      
                       (0, i.jsx)("div", { className: "swiper-pagination" }),
                     ],
                   }),
@@ -1940,15 +2040,15 @@
                             (0, i.jsx)("span", {
                               className: "quote",
                               children:
-                                '" I worked with Steven, he was very helpful and fast to respond to my inquiry to help with Wordpress website issues and all technical problems. "',
+                                `" I had the pleasure of working with Aman Kumar on a central government project where he led the development of a robust application using React and Node.js. His responsiveness and commitment to overcoming technical challenges were key to the project's success. I highly recommend Aman for any technical endeavors. "`,
                             }),
                             (0, i.jsx)("span", {
                               className: "person",
-                              children: "Jasmin Aniston",
+                              children: "Mukunda Murti Rao",
                             }),
                             (0, i.jsx)("span", {
                               className: "job",
-                              children: "Director - Adobe",
+                              children: "Movcd Scheme Manager",
                             }),
                           ],
                         }),
@@ -1969,15 +2069,15 @@
                             (0, i.jsx)("span", {
                               className: "quote",
                               children:
-                                '" Steven is a great help managing a very out of date website. Everything we ask him to do is done quickly and efficiently, we would be lost without him. "',
+                                '" Aman Kumar played a crucial role in developing an enterprise project using React, Node.js, and MongoDB. His technical expertise and prompt responses to challenges significantly improved our workflow. Aman’s dedication and professionalism made him an invaluable asset to the team, and I look forward to his continued success in future projects. "',
                             }),
                             (0, i.jsx)("span", {
                               className: "person",
-                              children: "Mark Eliott",
+                              children: "Veer Pratap",
                             }),
                             (0, i.jsx)("span", {
                               className: "job",
-                              children: "Manager - Envato",
+                              children: " DGM IT, ACME",
                             }),
                           ],
                         }),
