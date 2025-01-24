@@ -488,6 +488,35 @@
                           }),
                         ],
                       }),
+                      (0, i.jsxs)("div", {
+                        children: [
+                    
+                          (0, i.jsxs)("div", {
+                            className:
+                              "animated-layer fade-in-down-animation fadeInLeft wow",
+                            children: [
+                              (0, i.jsx)("span", {
+                                children: (0, i.jsx)("i", {
+                                  className: "devicon-socketio-original",
+                                }),
+                              }),
+                              (0, i.jsx)("h4", { children: "Socket.io" }),
+                            ],
+                          }),
+                          (0, i.jsxs)("div", {
+                            className:
+                              "animated-layer fade-in-up-animation fadeInRight wow",
+                            children: [
+                              (0, i.jsx)("span", {
+                                children: (0, i.jsx)("i", {
+                                  className: "",
+                                }),
+                              }),
+                              (0, i.jsx)("h4", { children: "" }),
+                            ],
+                          }),
+                        ],
+                      }),
                     ],
                   }),
                 ],
