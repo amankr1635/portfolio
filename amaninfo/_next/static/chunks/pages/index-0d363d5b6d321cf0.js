@@ -1191,7 +1191,16 @@
                               }),
                               (0, i.jsx)("li", {
                                 children: (0, i.jsx)("a", {
-                                  href: "#",
+                                  href: "https://www.linkedin.com/in/amankr1635/",
+                                  children: (0, i.jsx)("i", {
+                                    className: "fa-brands fa-linkedin-in",
+                                    
+                                  }),
+                                }),
+                              }),
+                              (0, i.jsx)("li", {
+                                children: (0, i.jsx)("a", {
+                                  href: "https://x.com/the_amankr",
                                   children: (0, i.jsx)("i", {
                                     className: "fa-brands fa-twitter",
                                   }),
@@ -1199,15 +1208,7 @@
                               }),
                               (0, i.jsx)("li", {
                                 children: (0, i.jsx)("a", {
-                                  href: "#",
-                                  children: (0, i.jsx)("i", {
-                                    className: "fa-brands fa-dribbble",
-                                  }),
-                                }),
-                              }),
-                              (0, i.jsx)("li", {
-                                children: (0, i.jsx)("a", {
-                                  href: "#",
+                                  href: "https://www.facebook.com/people/Aman-Gupta/pfbid0Z9PWxZv9bLrRcm4RYvuf5jEUtVmhpuxe2eEfW69Ta3b7X5X7qffEbHsz5mvWdax7l/",
                                   children: (0, i.jsx)("i", {
                                     className: "fa-brands fa-facebook",
                                   }),
@@ -1261,7 +1262,7 @@
                     children: [
                       (0, i.jsx)("li", {
                         children: (0, i.jsx)("a", {
-                          href: "#",
+                          href: "https://github.com/amankr1635",
                           children: (0, i.jsx)("i", {
                             className: "fa-brands fa-github",
                           }),
@@ -1269,23 +1270,24 @@
                       }),
                       (0, i.jsx)("li", {
                         children: (0, i.jsx)("a", {
-                          href: "#",
+                          href: "https://www.linkedin.com/in/amankr1635/",
+                          children: (0, i.jsx)("i", {
+                            className: "fa-brands fa-linkedin-in",
+                          }),
+                        }),
+                      }),
+                      (0, i.jsx)("li", {
+                        children: (0, i.jsx)("a", {
+                          href: "https://x.com/the_amankr",
                           children: (0, i.jsx)("i", {
                             className: "fa-brands fa-twitter",
                           }),
                         }),
                       }),
+                     
                       (0, i.jsx)("li", {
                         children: (0, i.jsx)("a", {
-                          href: "#",
-                          children: (0, i.jsx)("i", {
-                            className: "fa-brands fa-dribbble",
-                          }),
-                        }),
-                      }),
-                      (0, i.jsx)("li", {
-                        children: (0, i.jsx)("a", {
-                          href: "#",
+                          href: "https://www.facebook.com/people/Aman-Gupta/pfbid0Z9PWxZv9bLrRcm4RYvuf5jEUtVmhpuxe2eEfW69Ta3b7X5X7qffEbHsz5mvWdax7l/",
                           children: (0, i.jsx)("i", {
                             className: "fa-brands fa-facebook",
                           }),
