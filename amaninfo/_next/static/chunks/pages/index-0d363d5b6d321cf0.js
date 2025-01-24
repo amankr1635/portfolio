@@ -57,7 +57,7 @@
                           (0, i.jsx)("li", {
                             children: (0, i.jsx)("span", {
                               id: "blog-link",
-                              children: "Connect",
+                              children: "Connect Me",
                             }),
                           }),
                         ],
@@ -122,7 +122,7 @@
                         (0, i.jsx)("li", {
                           children: (0, i.jsx)("a", {
                             href: "#blog",
-                            children: (0, i.jsx)("span", { children: "Blog" }),
+                            children: (0, i.jsx)("span", { children: "Connect Me" }),
                           }),
                         }),
                       ],
@@ -680,7 +680,7 @@
                 minHeight: "500px",
                 padding: "0 5%",
                 background: "#000000",
-                minWidth:"500px",
+                minWidth: window.innerWidth <= 768 ? "100px" : "500px",
 
               },
               children: [
