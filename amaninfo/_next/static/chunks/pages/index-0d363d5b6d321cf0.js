@@ -374,7 +374,7 @@
                         children: [
                           (0, i.jsxs)("div", {
                             className:
-                              "animated-layer fade-in-up-animation fadeInRight wow",
+                              "animated-layer fade-in-up-animation fadeInLeft wow",
                             children: [
                               (0, i.jsx)("span", {
                                 children: (0, i.jsx)("i", {
@@ -417,7 +417,7 @@
                         
                           (0, i.jsxs)("div", {
                             className:
-                              "animated-layer fade-in-down-animation fadeInLeft wow",
+                              "animated-layer fade-in-down-animation fadeInRight wow",
                             children: [
                               (0, i.jsx)("span", {
                                 children: (0, i.jsx)("i", {
