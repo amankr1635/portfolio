@@ -2100,7 +2100,7 @@
                             (0, i.jsx)("span", {
                               className: "quote",
                               children:
-                              `" Aman Kumar successfully led the development of an enterprise project using React, Node.js, and MongoDB. His technical expertise, leadership, and proactive problem-solving significantly improved the workflow. Aman's dedication and professionalism made a lasting impact, and I am confident he will continue to excel in future projects. "`
+                              `" Aman Kumar successfully led the development of an enterprise project using React, Node.js, and MongoDB. His technical expertise, leadership, and problem-solving improved the workflow, and his dedication made a lasting impact. I am confident he will continue to excel in future projects. "`
                             }),
                             (0, i.jsx)("span", {
                               className: "person",
