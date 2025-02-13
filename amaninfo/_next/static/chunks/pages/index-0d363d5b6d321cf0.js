@@ -2071,7 +2071,7 @@
                             (0, i.jsx)("span", {
                               className: "quote",
                               children:
-                                `"I had the pleasure of working with Aman Kumar on a central government project, where he demonstrated exceptional problem-solving skills, dedication, and professionalism. His ability to collaborate effectively, adapt to challenges, and deliver high-quality results played a crucial role in the project's success. I highly recommend Aman for any project requiring commitment, technical expertise, and a strong work ethic."`,
+                                `"Aman Kumar showcased outstanding problem-solving skills, dedication, and professionalism during our work on a central government project. His ability to tackle challenges, collaborate effectively, and deliver high-quality results makes him an excellent choice for any project."`,
                             }),
                             (0, i.jsx)("span", {
                               className: "person",
