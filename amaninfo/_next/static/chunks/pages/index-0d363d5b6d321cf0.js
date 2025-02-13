@@ -2071,7 +2071,7 @@
                             (0, i.jsx)("span", {
                               className: "quote",
                               children:
-                                `"Aman Kumar showcased outstanding problem-solving skills, dedication, and professionalism during our work on a central government project. His ability to tackle challenges, collaborate effectively, and deliver high-quality results makes him an excellent choice for any project."`,
+                                `" Aman Kumar showcased outstanding problem-solving skills, dedication, and professionalism during our work on a central government project. His ability to tackle challenges, collaborate effectively, and deliver high-quality results makes him an excellent choice for any project. "`,
                             }),
                             (0, i.jsx)("span", {
                               className: "person",
@@ -2100,7 +2100,7 @@
                             (0, i.jsx)("span", {
                               className: "quote",
                               children:
-                                '" Aman Kumar played a crucial role in developing an enterprise project using React, Node.js, and MongoDB. His technical expertise and prompt responses to challenges significantly improved our workflow. Aman’s dedication and professionalism made him an invaluable asset to the team, and I look forward to his continued success in future projects. "',
+                              `" Aman Kumar successfully led the development of an enterprise project using React, Node.js, and MongoDB. His technical expertise, leadership, and proactive problem-solving significantly improved the workflow. Aman's dedication and professionalism made a lasting impact, and I am confident he will continue to excel in future projects. "`
                             }),
                             (0, i.jsx)("span", {
                               className: "person",
