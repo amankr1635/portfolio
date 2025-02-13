@@ -19,119 +19,119 @@
         });
       var i = a(5893);
       let n = () =>
-          (0, i.jsxs)("header", {
-            children: [
-              (0, i.jsxs)("div", {
-                className: "header-inner hide-mobile",
-                children: [
-                  (0, i.jsx)("div", {
-                    className: "menu",
-                    children: (0, i.jsx)("nav", {
-                      children: (0, i.jsxs)("ul", {
-                        children: [
-                          (0, i.jsx)("li", {
-                            children: (0, i.jsx)("span", {
-                              className: "active",
-                              id: "home-link",
-                              children: "Home",
-                            }),
-                          }),
-                          (0, i.jsx)("li", {
-                            children: (0, i.jsx)("span", {
-                              id: "about-link",
-                              children: "About",
-                            }),
-                          }),
-                          (0, i.jsx)("li", {
-                            children: (0, i.jsx)("span", {
-                              id: "portfolio-link",
-                              children: "Portfolio",
-                            }),
-                          }),
-                          (0, i.jsx)("li", {
-                            children: (0, i.jsx)("span", {
-                              id: "contact-link",
-                              children: "Contact",
-                            }),
-                          }),
-                          (0, i.jsx)("li", {
-                            children: (0, i.jsx)("span", {
-                              id: "blog-link",
-                              children: "Connect Me",
-                            }),
-                          }),
-                        ],
-                      }),
-                    }),
-                  }),
-                  (0, i.jsx)("div", {
-                    className: "mail",
-                    children: (0, i.jsxs)("p", {
+        (0, i.jsxs)("header", {
+          children: [
+            (0, i.jsxs)("div", {
+              className: "header-inner hide-mobile",
+              children: [
+                (0, i.jsx)("div", {
+                  className: "menu",
+                  children: (0, i.jsx)("nav", {
+                    children: (0, i.jsxs)("ul", {
                       children: [
-                        "Email :",
-                        (0, i.jsx)("span", { children: " amankr.1635@gmail.com" }),
+                        (0, i.jsx)("li", {
+                          children: (0, i.jsx)("span", {
+                            className: "active",
+                            id: "home-link",
+                            children: "Home",
+                          }),
+                        }),
+                        (0, i.jsx)("li", {
+                          children: (0, i.jsx)("span", {
+                            id: "about-link",
+                            children: "About",
+                          }),
+                        }),
+                        (0, i.jsx)("li", {
+                          children: (0, i.jsx)("span", {
+                            id: "portfolio-link",
+                            children: "Portfolio",
+                          }),
+                        }),
+                        (0, i.jsx)("li", {
+                          children: (0, i.jsx)("span", {
+                            id: "contact-link",
+                            children: "Contact",
+                          }),
+                        }),
+                        (0, i.jsx)("li", {
+                          children: (0, i.jsx)("span", {
+                            id: "blog-link",
+                            children: "Connect Me",
+                          }),
+                        }),
                       ],
                     }),
+                  }),
+                }),
+                (0, i.jsx)("div", {
+                  className: "mail",
+                  children: (0, i.jsxs)("p", {
+                    children: [
+                      "Email :",
+                      (0, i.jsx)("span", { children: " amankr.1635@gmail.com" }),
+                    ],
+                  }),
+                }),
+              ],
+            }),
+            (0, i.jsx)("nav", {
+              className: "mobile-menu",
+              children: (0, i.jsxs)("div", {
+                id: "menuToggle",
+                children: [
+                  (0, i.jsx)("input", {
+                    type: "checkbox",
+                    id: "checkboxmenu",
+                  }),
+                  (0, i.jsx)("span", {}),
+                  (0, i.jsx)("span", {}),
+                  (0, i.jsx)("span", {}),
+                  (0, i.jsxs)("ul", {
+                    className: "list-unstyled",
+                    id: "menu",
+                    children: [
+                      (0, i.jsx)("li", {
+                        children: (0, i.jsx)("a", {
+                          href: "#home",
+                          children: (0, i.jsx)("span", { children: "Home" }),
+                        }),
+                      }),
+                      (0, i.jsx)("li", {
+                        children: (0, i.jsx)("a", {
+                          href: "#my-photo",
+                          children: (0, i.jsx)("span", { children: "About" }),
+                        }),
+                      }),
+                      (0, i.jsx)("li", {
+                        children: (0, i.jsx)("a", {
+                          href: "#portfolio",
+                          children: (0, i.jsx)("span", {
+                            children: "Portfolio",
+                          }),
+                        }),
+                      }),
+                      (0, i.jsx)("li", {
+                        children: (0, i.jsx)("a", {
+                          href: "#contact",
+                          children: (0, i.jsx)("span", {
+                            children: "Contact",
+                          }),
+                        }),
+                      }),
+                      (0, i.jsx)("li", {
+                        children: (0, i.jsx)("a", {
+                          href: "#blog",
+                          children: (0, i.jsx)("span", { children: "Connect Me" }),
+                        }),
+                      }),
+                    ],
                   }),
                 ],
               }),
-              (0, i.jsx)("nav", {
-                className: "mobile-menu",
-                children: (0, i.jsxs)("div", {
-                  id: "menuToggle",
-                  children: [
-                    (0, i.jsx)("input", {
-                      type: "checkbox",
-                      id: "checkboxmenu",
-                    }),
-                    (0, i.jsx)("span", {}),
-                    (0, i.jsx)("span", {}),
-                    (0, i.jsx)("span", {}),
-                    (0, i.jsxs)("ul", {
-                      className: "list-unstyled",
-                      id: "menu",
-                      children: [
-                        (0, i.jsx)("li", {
-                          children: (0, i.jsx)("a", {
-                            href: "#home",
-                            children: (0, i.jsx)("span", { children: "Home" }),
-                          }),
-                        }),
-                        (0, i.jsx)("li", {
-                          children: (0, i.jsx)("a", {
-                            href: "#my-photo",
-                            children: (0, i.jsx)("span", { children: "About" }),
-                          }),
-                        }),
-                        (0, i.jsx)("li", {
-                          children: (0, i.jsx)("a", {
-                            href: "#portfolio",
-                            children: (0, i.jsx)("span", {
-                              children: "Portfolio",
-                            }),
-                          }),
-                        }),
-                        (0, i.jsx)("li", {
-                          children: (0, i.jsx)("a", {
-                            href: "#contact",
-                            children: (0, i.jsx)("span", {
-                              children: "Contact",
-                            }),
-                          }),
-                        }),
-                        (0, i.jsx)("li", {
-                          children: (0, i.jsx)("a", {
-                            href: "#blog",
-                            children: (0, i.jsx)("span", { children: "Connect Me" }),
-                          }),
-                        }),
-                      ],
-                    }),
-                  ],
-                }),
-              }),
-            ],
-          }),
+            }),
+          ],
+        }),
         l = () =>
           (0, i.jsx)("div", {
             className: "scroll-progress hide-mobile",
@@ -367,7 +367,7 @@
                               (0, i.jsx)("h4", { children: "Postgresql" }),
                             ],
                           }),
-                         
+
                         ],
                       }),
                       (0, i.jsxs)("div", {
@@ -396,13 +396,13 @@
                               (0, i.jsx)("h4", { children: "MongoDB" }),
                             ],
                           }),
-                    
-                         
+
+
                         ],
                       }),
                       (0, i.jsxs)("div", {
                         children: [
-                            (0, i.jsxs)("div", {
+                          (0, i.jsxs)("div", {
                             className:
                               "animated-layer fade-in-down-animation fadeInLeft wow",
                             children: [
@@ -414,7 +414,7 @@
                               (0, i.jsx)("h4", { children: "Javascript" }),
                             ],
                           }),
-                        
+
                           (0, i.jsxs)("div", {
                             className:
                               "animated-layer fade-in-down-animation fadeInRight wow",
@@ -427,12 +427,12 @@
                               (0, i.jsx)("h4", { children: "MySQL" }),
                             ],
                           }),
-                      
+
                         ],
                       }),
                       (0, i.jsxs)("div", {
                         children: [
-                    
+
                           (0, i.jsxs)("div", {
                             className:
                               "animated-layer fade-in-down-animation fadeInLeft wow",
@@ -461,7 +461,7 @@
                       }),
                       (0, i.jsxs)("div", {
                         children: [
-                    
+
                           (0, i.jsxs)("div", {
                             className:
                               "animated-layer fade-in-down-animation fadeInLeft wow",
@@ -490,7 +490,7 @@
                       }),
                       (0, i.jsxs)("div", {
                         children: [
-                    
+
                           (0, i.jsxs)("div", {
                             className:
                               "animated-layer fade-in-down-animation fadeInLeft wow",
@@ -717,18 +717,18 @@
                   className: "connect-form",
                   style: {
                     flex: "0 0 100%",
-                    width:"300px",
+                    width: "300px",
                   },
                   children: (0, i.jsxs)("form", {
                     id: "emailForm",
                     onSubmit: async (e) => {
                       e.preventDefault();
-                    
+
                       const emailInput = document.getElementById('email');
                       const mobileInput = document.getElementById('Mobile');
                       const messageInput = document.getElementById('message');
                       const submitButton = e.target.querySelector('button[type="submit"]');
-                    
+
                       // Create loader element
                       const createLoader = () => {
                         const loader = document.createElement('div');
@@ -741,7 +741,7 @@
                         loader.style.marginLeft = '20px';
                         return loader;
                       };
-                       //   // Add CSS for loader animation
+                      //   // Add CSS for loader animation
                       const addLoaderStyles = () => {
                         const style = document.createElement('style');
                         style.innerHTML = `
@@ -767,16 +767,16 @@
                         return tick;
                       };
                       addLoaderStyles(); // Add loader styles once
-                    
+
                       try {
                         // Disable and hide the submit button
                         submitButton.disabled = true;
                         submitButton.style.display = 'none';
-                    
+
                         // Show loader
                         const loader = createLoader();
                         submitButton.parentNode.insertBefore(loader, submitButton.nextSibling);
-                    
+
                         // Make the API call
                         const response = await fetch('https://inquiry-1q60.onrender.com/api/send-inquiry', {
                           method: 'POST',
@@ -790,20 +790,20 @@
                             source: 'Website Inquiry Form'
                           })
                         });
-                    
+
                         // Remove loader
                         loader.remove();
-                    
+
                         if (response.ok) {
                           // Show success tick
                           const tick = createTickElement();
                           submitButton.parentNode.insertBefore(tick, submitButton.nextSibling);
-                    
+
                           // Clear input fields
                           emailInput.value = '';
                           mobileInput.value = '';
                           messageInput.value = '';
-                    
+
                           // Remove tick and re-enable button after 3 seconds
                           setTimeout(() => {
                             tick.remove();
@@ -822,7 +822,7 @@
                         submitButton.style.display = 'inline-block'; // Show the button again
                       }
                     },
-                    
+
                     children: [
                       (0, i.jsxs)("div", {
                         className: "form-group mb-4",
@@ -885,10 +885,10 @@
                               const value = e.target.value;
                               // Remove any non-digit characters
                               e.target.value = value.replace(/\D/g, '');
-                              
+
                               // Validate against the regex pattern
                               const isValid = /^[6789]\d{9}$/.test(value);
-                              
+
                               // Add visual feedback
                               if (value.length === 10) {
                                 if (isValid) {
@@ -954,7 +954,7 @@
                 })
               ]
             })
-       
+
           ],
         });
       var o = a(9360);
@@ -997,133 +997,133 @@
       };
       var m = a(2546);
       let x = () =>
-          (0, i.jsxs)("section", {
-            className: "clients",
-            children: [
-              (0, i.jsxs)("div", {
-                className:
-                  "clients-container animated-layer fade-in-right-animation fadeInUp wow",
-                children: [
-                  (0, i.jsx)("h3", { children: "Companies I've Worked With" }),
-                  (0, i.jsxs)(m.tq, {
-                    ...h.clients,
-                    className: "swiper swiper-clients fadeInUp wow",
-                    children: [
-                      (0, i.jsxs)(m.o5, {
-                        className: "swiper-slide",
-                        children: [
-                          (0, i.jsx)("div", {
-                            children: (0, i.jsx)("img", {
-                              src: "assets/logos/Acmelogo.png",
-                              alt: "company",
-                            }),
+        (0, i.jsxs)("section", {
+          className: "clients",
+          children: [
+            (0, i.jsxs)("div", {
+              className:
+                "clients-container animated-layer fade-in-right-animation fadeInUp wow",
+              children: [
+                (0, i.jsx)("h3", { children: "Companies I've Worked With" }),
+                (0, i.jsxs)(m.tq, {
+                  ...h.clients,
+                  className: "swiper swiper-clients fadeInUp wow",
+                  children: [
+                    (0, i.jsxs)(m.o5, {
+                      className: "swiper-slide",
+                      children: [
+                        (0, i.jsx)("div", {
+                          children: (0, i.jsx)("img", {
+                            src: "assets/logos/Acmelogo.png",
+                            alt: "company",
                           }),
-                          (0, i.jsx)("div", {
-                            children: (0, i.jsx)("img", {
-                              src: "assets/logos/EY_logo.png",
-                              alt: "company",
-                            }),
+                        }),
+                        (0, i.jsx)("div", {
+                          children: (0, i.jsx)("img", {
+                            src: "assets/logos/EY_logo.png",
+                            alt: "company",
                           }),
-                        ],
-                      }),
-                      (0, i.jsxs)(m.o5, {
-                        className: "swiper-slide",
-                        children: [
-                          (0, i.jsx)("div", {
-                            children: (0, i.jsx)("img", {
-                              src: "assets/logos/ltslogo.png",
-                              alt: "company",
-                            }),
+                        }),
+                      ],
+                    }),
+                    (0, i.jsxs)(m.o5, {
+                      className: "swiper-slide",
+                      children: [
+                        (0, i.jsx)("div", {
+                          children: (0, i.jsx)("img", {
+                            src: "assets/logos/ltslogo.png",
+                            alt: "company",
                           }),
-                          (0, i.jsx)("div", {
-                            children: (0, i.jsx)("img", {
-                              src: "assets/logos/functionup.png",
-                              alt: "company",
-                            }),
+                        }),
+                        (0, i.jsx)("div", {
+                          children: (0, i.jsx)("img", {
+                            src: "assets/logos/functionup.png",
+                            alt: "company",
                           }),
-                        ],
-                      }),
-                      // (0, i.jsxs)(m.o5, {
-                      //   className: "swiper-slide",
-                      //   children: [
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/xyz",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/activeden-dark-background.png",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //   ],
-                      // }),
-                      // (0, i.jsxs)(m.o5, {
-                      //   className: "swiper-slide",
-                      //   children: [
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/3docean-dark-background.png",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/themeforest-dark-background.png",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //   ],
-                      // }),
-                      // (0, i.jsxs)(m.o5, {
-                      //   className: "swiper-slide",
-                      //   children: [
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/activeden-dark-background.png",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/audiojungle-dark-background.png",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //   ],
-                      // }),
-                      // (0, i.jsxs)(m.o5, {
-                      //   className: "swiper-slide",
-                      //   children: [
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/graphicriver-dark-background.png",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //     (0, i.jsx)("div", {
-                      //       children: (0, i.jsx)("img", {
-                      //         src: "assets/logos/codecanyon-dark-background.png",
-                      //         alt: "client",
-                      //       }),
-                      //     }),
-                      //   ],
-                      // }),
-                      
-                      (0, i.jsx)("div", { className: "swiper-pagination" }),
-                    ],
-                  }),
-                ],
-              }),
-              (0, i.jsx)("img", {
-                alt: "",
-                className: "z-1 hide-mobile opposite-separator",
-                src: "assets/separator-opposite.png",
-              }),
-            ],
-          }),
+                        }),
+                      ],
+                    }),
+                    // (0, i.jsxs)(m.o5, {
+                    //   className: "swiper-slide",
+                    //   children: [
+                    //     (0, i.jsx)("div", {
+                    //       children: (0, i.jsx)("img", {
+                    //         src: "assets/logos/xyz",
+                    //         alt: "client",
+                    //       }),
+                    //     }),
+                    //     (0, i.jsx)("div", {
+                    //       children: (0, i.jsx)("img", {
+                    //         src: "assets/logos/activeden-dark-background.png",
+                    //         alt: "client",
+                    //       }),
+                    //     }),
+                    //   ],
+                    // }),
+                    // (0, i.jsxs)(m.o5, {
+                    //   className: "swiper-slide",
+                    //   children: [
+                    //     (0, i.jsx)("div", {
+                    //       children: (0, i.jsx)("img", {
+                    //         src: "assets/logos/3docean-dark-background.png",
+                    //         alt: "client",
+                    //       }),
+                    //     }),
+                    //     (0, i.jsx)("div", {
+                    //       children: (0, i.jsx)("img", {
+                    //         src: "assets/logos/themeforest-dark-background.png",
+                    //         alt: "client",
+                    //       }),
+                    //     }),
+                    //   ],
+                    // }),
+                    // (0, i.jsxs)(m.o5, {
+                    //   className: "swiper-slide",
+                    //   children: [
+                    //     (0, i.jsx)("div", {
+                    //       children: (0, i.jsx)("img", {
+                    //         src: "assets/logos/activeden-dark-background.png",
+                    //         alt: "client",
+                    //       }),
+                    //     }),
+                    //     (0, i.jsx)("div", {
+                    //       children: (0, i.jsx)("img", {
+                    //         src: "assets/logos/audiojungle-dark-background.png",
+                    //         alt: "client",
+                    //       }),
+                    //     }),
+                    //   ],
+                    // }),
+                    // (0, i.jsxs)(m.o5, {
+                    //   className: "swiper-slide",
+                    //   children: [
+                    //     (0, i.jsx)("div", {
+                    //       children: (0, i.jsx)("img", {
+                    //         src: "assets/logos/graphicriver-dark-background.png",
+                    //         alt: "client",
+                    //       }),
+                    //     }),
+                    //     (0, i.jsx)("div", {
+                    //       children: (0, i.jsx)("img", {
+                    //         src: "assets/logos/codecanyon-dark-background.png",
+                    //         alt: "client",
+                    //       }),
+                    //     }),
+                    //   ],
+                    // }),
+
+                    (0, i.jsx)("div", { className: "swiper-pagination" }),
+                  ],
+                }),
+              ],
+            }),
+            (0, i.jsx)("img", {
+              alt: "",
+              className: "z-1 hide-mobile opposite-separator",
+              src: "assets/separator-opposite.png",
+            }),
+          ],
+        }),
         j = () =>
           (0, i.jsxs)("section", {
             className: "contact main-section flex-column-mobile",
@@ -1223,7 +1223,7 @@
                                   href: "https://www.linkedin.com/in/amankr1635/",
                                   children: (0, i.jsx)("i", {
                                     className: "fa-brands fa-linkedin-in",
-                                    
+
                                   }),
                                 }),
                               }),
@@ -1313,7 +1313,7 @@
                           }),
                         }),
                       }),
-                     
+
                       (0, i.jsx)("li", {
                         children: (0, i.jsx)("a", {
                           href: "https://www.facebook.com/people/Aman-Gupta/pfbid0Z9PWxZv9bLrRcm4RYvuf5jEUtVmhpuxe2eEfW69Ta3b7X5X7qffEbHsz5mvWdax7l/",
@@ -1496,8 +1496,8 @@
                     children: (0, i.jsx)("span", {
                       className:
                         "animated-layer fade-in-left-animation fadeInUp wow",
-                        style: {
-                        },
+                      style: {
+                      },
                       children: "My Portfolio",
                     }),
                   }),
@@ -2004,7 +2004,7 @@
                                           children: [
                                             (0, i.jsx)("i", {
                                               className: "fa-solid fa-database",
-    
+
                                             }),
                                             " Database :",
                                           ],
@@ -2071,7 +2071,7 @@
                             (0, i.jsx)("span", {
                               className: "quote",
                               children:
-                                `" I had the pleasure of working with Aman Kumar on a central government project where he led the development of a robust application using React and Node.js. His responsiveness and commitment to overcoming technical challenges were key to the project's success. I highly recommend Aman for any technical endeavors. "`,
+                                `"I had the pleasure of working with Aman Kumar on a central government project, where he demonstrated exceptional problem-solving skills, dedication, and professionalism. His ability to collaborate effectively, adapt to challenges, and deliver high-quality results played a crucial role in the project's success. I highly recommend Aman for any project requiring commitment, technical expertise, and a strong work ethic."`,
                             }),
                             (0, i.jsx)("span", {
                               className: "person",
@@ -2147,8 +2147,8 @@
           }, 800),
             b()(window).width() > 1024
               ? (setTimeout(function () {
-                  b()(".header-inner").addClass("animated fadeInDown");
-                }, 1500),
+                b()(".header-inner").addClass("animated fadeInDown");
+              }, 1500),
                 setTimeout(function () {
                   b()(".home>div>div h1 span span").addClass(
                     "animated fadeInUp"
@@ -2157,8 +2157,8 @@
                     b()(".home .cta").addClass("animated fadeInUp");
                 }, 2200))
               : (setTimeout(function () {
-                  b()(".header-inner").addClass("animated fadeInDown");
-                }, 1100),
+                b()(".header-inner").addClass("animated fadeInDown");
+              }, 1100),
                 setTimeout(function () {
                   b()(".home>div>div h1 span span").addClass(
                     "animated fadeInUp"
@@ -2182,69 +2182,69 @@
           b()("#wrapper").length &&
             (b()(window).width() > 1024
               ? b()("#wrapper").mCustomScrollbar({
-                  axis: "x",
-                  theme: "dark-3",
-                  keyboard: { enable: !0, scrollType: "stepless" },
-                  advanced: { autoExpandHorizontalScroll: !0 },
-                  mouseWheel: { scrollAmount: 400 },
-                  callbacks: {
-                    whileScrolling: function () {
-                      var s;
-                      (s =
-                        b()("#wrapper").width() -
-                        b()(window).width() / 2 +
-                        270),
-                        b()(".animated-layer").each(function () {
-                          var e = b()(this);
-                          b()(this).offset().left < s &&
-                            (e.hasClass("image-animation")
-                              ? e.addClass("animated")
-                              : e.hasClass("fade-in-up-animation")
+                axis: "x",
+                theme: "dark-3",
+                keyboard: { enable: !0, scrollType: "stepless" },
+                advanced: { autoExpandHorizontalScroll: !0 },
+                mouseWheel: { scrollAmount: 400 },
+                callbacks: {
+                  whileScrolling: function () {
+                    var s;
+                    (s =
+                      b()("#wrapper").width() -
+                      b()(window).width() / 2 +
+                      270),
+                      b()(".animated-layer").each(function () {
+                        var e = b()(this);
+                        b()(this).offset().left < s &&
+                          (e.hasClass("image-animation")
+                            ? e.addClass("animated")
+                            : e.hasClass("fade-in-up-animation")
                               ? e.addClass("animated fadeInUp")
                               : e.hasClass("fade-in-animation")
-                              ? e.addClass("animated fadeIn")
-                              : e.hasClass("fade-in-down-animation")
-                              ? e.addClass("animated fadeInDown")
-                              : e.hasClass("fade-in-right-animation")
-                              ? e.addClass("animated fadeInRight")
-                              : e.hasClass("fade-in-left-animation") &&
-                                e.addClass("animated fadeInLeft"));
-                        }),
-                        Math.abs(parseInt(b()(".mCSB_container").css("left"))) >
-                          e &&
+                                ? e.addClass("animated fadeIn")
+                                : e.hasClass("fade-in-down-animation")
+                                  ? e.addClass("animated fadeInDown")
+                                  : e.hasClass("fade-in-right-animation")
+                                    ? e.addClass("animated fadeInRight")
+                                    : e.hasClass("fade-in-left-animation") &&
+                                    e.addClass("animated fadeInLeft"));
+                      }),
+                      Math.abs(parseInt(b()(".mCSB_container").css("left"))) >
+                        e &&
                         Math.abs(parseInt(b()(".mCSB_container").css("left"))) <
-                          i
-                          ? (b()(".menu ul li span").removeClass("active"),
-                            b()("#about-link").addClass("active"))
-                          : Math.abs(
-                              parseInt(b()(".mCSB_container").css("left"))
-                            ) > i &&
-                            Math.abs(
-                              parseInt(b()(".mCSB_container").css("left"))
-                            ) < n
+                        i
+                        ? (b()(".menu ul li span").removeClass("active"),
+                          b()("#about-link").addClass("active"))
+                        : Math.abs(
+                          parseInt(b()(".mCSB_container").css("left"))
+                        ) > i &&
+                          Math.abs(
+                            parseInt(b()(".mCSB_container").css("left"))
+                          ) < n
                           ? (b()(".menu ul li span").removeClass("active"),
                             b()("#portfolio-link").addClass("active"))
                           : Math.abs(
-                              parseInt(b()(".mCSB_container").css("left"))
-                            ) > n &&
+                            parseInt(b()(".mCSB_container").css("left"))
+                          ) > n &&
                             Math.abs(
                               parseInt(b()(".mCSB_container").css("left"))
                             ) < l
-                          ? (b()(".menu ul li span").removeClass("active"),
-                            b()("#contact-link").addClass("active"))
-                          : Math.abs(
+                            ? (b()(".menu ul li span").removeClass("active"),
+                              b()("#contact-link").addClass("active"))
+                            : Math.abs(
                               parseInt(b()(".mCSB_container").css("left"))
                             ) > l &&
-                            Math.abs(
-                              parseInt(b()(".mCSB_container").css("left"))
-                            ) < r
-                          ? (b()(".menu ul li span").removeClass("active"),
-                            b()("#blog-link").addClass("active"))
-                          : (b()(".menu ul li span").removeClass("active"),
-                            b()("#home-link").addClass("active"));
-                    },
+                              Math.abs(
+                                parseInt(b()(".mCSB_container").css("left"))
+                              ) < r
+                              ? (b()(".menu ul li span").removeClass("active"),
+                                b()("#blog-link").addClass("active"))
+                              : (b()(".menu ul li span").removeClass("active"),
+                                b()("#home-link").addClass("active"));
                   },
-                })
+                },
+              })
               : ((window.WOW = a(5541)), new WOW.WOW().init()));
         }),
           b()(document).ready(function () {
@@ -2259,13 +2259,13 @@
                     "",
                     document.title,
                     window.location.origin +
-                      window.location.pathname +
-                      window.location.search
+                    window.location.pathname +
+                    window.location.search
                   );
                 }, 5);
               }),
               b()(window).width() > 1024 &&
-                (b()(".fadeIn").removeClass("fadeIn"),
+              (b()(".fadeIn").removeClass("fadeIn"),
                 b()(".fadeInUp").removeClass("fadeInUp"),
                 b()(".fadeInDown").removeClass("fadeInDown"),
                 b()(".fadeInRight").removeClass("fadeInRight"),
@@ -2310,11 +2310,11 @@
               b()("#cta").on("click", function () {
                 b()(window).width() > 1024
                   ? b()("#wrapper").mCustomScrollbar("scrollTo", "#about", {
-                      scrollInertia: 1500,
-                    })
+                    scrollInertia: 1500,
+                  })
                   : b()("html, body").animate({
-                      scrollTop: b()("#my-photo").offset().top,
-                    });
+                    scrollTop: b()("#my-photo").offset().top,
+                  });
               });
           });
       };
